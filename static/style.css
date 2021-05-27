@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url('https://images.pexels.com/photos/6775241/pexels-photo-6775241.jpeg?cs=srgb&dl=pexels-ben-mack-6775241.jpg&fm=jpg');
+}
+
+
+/* Written Part at Home Page */
+
+.htmlline {
+    display: flex;
+}
+
+.container {
+    font-family: 'Baloo Bhai 2', cursive;
+    display: flex;
+}
+
+.content {
+    position: absolute;
+    top: 20%;
+}
+
+.intern {
+    position: absolute;
+    top: 163%;
+}
+
+.animated-progress {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    border: 1px solid rgb(189, 113, 113);
+    overflow: hidden;
+    position: relative;
+}
+
+.animated-progress span {
+    height: 100%;
+    display: block;
+    width: 70%;
+    color: rgb(255, 251, 251);
+    line-height: 30px;
+    position: absolute;
+    text-align: end;
+    padding-right: 5px;
+}
+
+.animated-progress {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    border: 1px solid rgb(189, 113, 113);
+    overflow: hidden;
+    position: relative;
+}
+
+.animated-progress span {
+    height: 100%;
+    display: block;
+    width: 70%;
+    color: rgb(255, 251, 251);
+    line-height: 30px;
+    position: absolute;
+    text-align: end;
+    padding-right: 5px;
+}
+
+.progress-blue span {
+    background-color: blue;
+}
+
+.progress-green span {
+    background-color: green;
+}
+
+.progress-purple span {
+    background-color: indigo;
+}
+
+.progress-red span {
+    background-color: red;
+}
+
+.progress-bar {
+    width: 30%;
+}
+
+.container img {
+    position: absolute;
+    right: 8%;
+    height: 93%;
+}
+
+
+/* Animation */
+
+.anim-typewriter {
+    position: relative;
+    top: 75px;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    animation: typewriter 3s infinite, blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 16em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}

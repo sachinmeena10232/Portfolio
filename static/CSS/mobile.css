@@ -1,0 +1,229 @@
+        @media screen and (max-width: 1450px) {
+            .text {
+                font-size: 1em;
+            }
+        }
+        
+        @media screen and (max-width: 1200px) {
+            .text1 {
+                font-size: 14px;
+            }
+            .text1 h3 {
+                font-size: 17px;
+            }
+            .text1 ul {
+                margin-bottom: 0;
+            }
+        }
+        
+        @media screen and (max-width: 1300px) and (min-width: 1450px) {
+            .card-body {
+                padding: 28px;
+            }
+        }
+        
+        @media screen and (max-width: 1080px) {
+            .year {
+                font-size: 70%;
+            }
+            .degree {
+                font-size: 81%;
+            }
+        }
+        
+        @media screen and (max-width: 1200px) and (min-width: 1000px) {
+            .text1 {
+                font-size: 12px;
+            }
+            .text1 h3 {
+                font-size: 15px;
+            }
+            .text1 ul {
+                margin-bottom: 0;
+            }
+        }
+        
+        @media screen and (max-width: 1000px) {
+            .intro-right img {
+                width: 91%;
+            }
+            .anim-typewriter {
+                animation: none;
+            }
+            .navigation {
+                flex-direction: column;
+                width: 100vw;
+            }
+            .nav-right input {
+                font-size: 11px;
+                padding: 6px;
+                width: 46%;
+                border: 2px black solid;
+                border-radius: 10px;
+            }
+            .btn {
+                font-size: 88%;
+                padding: 1%;
+                border: 2px solid black;
+                border-radius: 10px;
+                margin: 0px 2px;
+            }
+            /* .row {
+                     display: flex;
+                     flex-direction: column;
+                 } */
+            .text {
+                font-size: 20px;
+            }
+            .projects {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 80%;
+            }
+            .image {
+                width: 100%;
+            }
+            .image1 {
+                width: 250%;
+                margin: 2px;
+            }
+            .overlay {
+                width: 100%;
+            }
+            .overlay1 {
+                width: 253%;
+            }
+            .text1 {
+                font-size: 15px;
+            }
+            .text1 h3 {
+                font-size: 17px;
+            }
+            .text1 ul {
+                margin-bottom: 0;
+            }
+            .text {
+                font-size: 12px;
+            }
+            .text h3 {
+                font-size: 14px;
+            }
+            .card {
+                width: 100%;
+            }
+        }
+        
+        @media screen and (max-width: 775px) {
+            .social-link {
+                display: none;
+            }
+            .social-image {
+                width: 92%;
+                margin-bottom: 20%;
+            }
+        }
+        
+        @media screen and (max-width: 673px) {
+            .text1 {
+                font-size: 12px;
+            }
+            .text1 h3 {
+                font-size: 14px;
+            }
+            .text {
+                font-size: 24px;
+            }
+            .text h3 {
+                font-size: 28px;
+            }
+            .hobbiees {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 80%;
+            }
+            .hobby-heading {
+                margin-right: 60%;
+            }
+            .hobby {
+                position: relative;
+                width: 82%;
+                margin: 3%;
+            }
+        }
+        
+        @media screen and (max-width: 770px) and (min-width: 600px) {
+            .intro-right img {
+                width: 56%;
+            }
+            .intro-left h1 {
+                font-size: 80%;
+            }
+            .intro-left {
+                width: 70%;
+                margin: auto;
+            }
+            .year {
+                font-size: 50%;
+            }
+            .degree {
+                font-size: 71%;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            .text {
+                font-size: 20px;
+            }
+            .text h3 {
+                font-size: 24px;
+            }
+            .social-link {
+                display: none;
+            }
+            .text1 {
+                font-size: 9px;
+            }
+            .text1 h3 {
+                font-size: 11px;
+            }
+            .intro {
+                display: flex;
+                flex-direction: column;
+            }
+            .intro-left {
+                width: 80%;
+                margin: auto;
+            }
+            .intro-right {
+                width: 66%;
+                margin: auto;
+            }
+        }
+        
+        @media screen and (max-width: 400px) {
+            .text1 {
+                font-size: 8px;
+            }
+            .text1 h3 {
+                font-size: 9px;
+            }
+            .text {
+                font-size: 18px;
+            }
+        }
+        
+        @media screen and (max-width: 350px) {
+            .text1 {
+                font-size: 5px;
+            }
+            .text1 h3 {
+                font-size: 7px;
+            }
+            .text {
+                font-size: 10px;
+            }
+        }
